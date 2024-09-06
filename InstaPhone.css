@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+}
+.gdv{
+    display: block;
+}
+.DivPhone1{
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.DivPhone1a{
+    display: flex;
+    align-items: center;
+}
+.Im1a{
+    width: 150px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.Im1b{
+    width: 35px;
+    margin-left: 10px;
+}
+.Im1ba{
+    width: 40px;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+.DivPhone2{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    border-color: rgb(215, 213, 213);
+    background-color: rgb(242, 241, 241);
+}
+.DivPhone2a{
+    margin-left: 20px;
+}
+.DivPhone2a1{
+    width: 59px;
+    height: 59px;
+    border: solid 2px;
+    border-radius: 35px;
+    border-color: rgb(239, 102, 43);
+}
+.Im2a{
+    width: 55px;
+    height: 55px;
+    border: solid 2px;
+    border-radius: 35px;
+    border-color: white;
+}
+.DivPhone2a2{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 70px;
+    font-size: 13px;
+    margin-top: 5px;
+}
+.DivPhone3a{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.DivPhone3a1{
+    display: flex;
+}
+.DivPhone3a1a{
+    width: 37px;
+    height: 37px;
+    border: solid 2px;
+    border-radius: 35px;
+    border-color: rgb(239, 102, 43);
+    margin-right: 7px;
+}
+.Im3a{
+    width: 33px;
+    height: 33px;
+    border: solid 2px;
+    border-radius: 35px;
+    border-color: white;
+}
+.DivPhone3a1b1{
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    font-family: Calibri;
+    font-weight: 600;
+}
+.DivPhone3a1b2{
+    text-align: left;
+    color: rgb(17, 17, 17);
+    font-size: 14px;
+    font-family: Calibri;
+    font-weight: 400;
+}
+.DivPhone3a2{
+    font-size: 30px;
+}
+.Im3b{
+    width: 100%;
+}
+
+
+
+
+.DivPhone4{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.Im4a,.Im4b,.Im4c,.Im4d{
+    width: 25px;
+    height: 25px;
+    margin-right: 25px;
+}
+.Im4e{
+    width: 30px;
+    border-radius: 45px;
+}

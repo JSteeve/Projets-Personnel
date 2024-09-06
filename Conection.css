@@ -1,0 +1,356 @@
+body{
+    margin: 0%;
+}
+.gdv{
+    width: 80%;
+    height: 100%;
+    display: block;
+    background-color: aqua;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
+    align-items: center;
+}
+.dv1{
+    width: 80%;
+    height: 50%;
+    border: solid 1px;
+}
+.dv2{
+    width: 90%;
+    border: solid 1px;
+}
+    /*
+.gdva{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.im1{
+    width: 100px;
+}
+
+.im2{
+    width: 100px;
+}
+    .dv2a{
+        width: 210px;
+        border: solid 1px;
+        border-color: rgb(181, 181, 182);
+        display: block;
+    }
+    .dv2a1{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 55px;
+    }
+    
+    .dv2a2,.dv2a3{
+        margin-left: 10%;
+        margin-bottom: -0.1%;
+    }
+    .imp1{
+        width: 85%;
+        height: 15px;
+        background-color: rgb(246, 246, 247);
+        font-size: 7px;
+        border: solid 1px;
+        border-color: rgb(181, 181, 182);
+        border-radius: 1.5px;
+        padding-left: 5px;
+        color: rgb(108, 108, 109);
+    }
+    .imp2{
+        width: 85%;
+        height: 15px;
+        background-color: rgb(246, 246, 247);
+        font-size: 7px;
+        border: solid 1px;
+        border-color: rgb(181, 181, 182);
+        border-radius: 1.5px;
+        padding-left: 5px;
+        color: rgb(108, 108, 109);
+    }
+    .bt1{
+        width: 80.5%;
+        height: 20px;
+        margin-top: 4%;
+        margin-left: 10%;
+        background-color: rgb(101, 197, 248);
+        font-size: 9px;
+        border: solid 1px;
+        border-color: rgb(101, 197, 248);
+        border-radius: 4px;
+        color: white;
+    }
+    .dv2a4{
+        display: flex;
+        width: 80.5%;
+        margin-left: 10%;
+        margin-top: 4%;
+    }
+    .dv2a4a{
+        width: 65px;
+        border-top: solid 1px;
+        margin-top: 10px;
+        border-color: rgb(181, 181, 182);
+    }
+    .dv2a4b{
+        margin-top: 1.5px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 12px;
+        color: rgb(108, 108, 109);
+    }
+    .dv2a4c{
+        width: 65px;
+        border-top: solid 1px;
+        margin-top: 10px;
+        border-color: rgb(181, 181, 182);
+    }
+    p{
+        text-align: center;
+    }
+    .im3{
+        width: 10px;
+    }
+    .lin3{
+        text-decoration: none;
+        color: rgb(30, 30, 128);
+        font-size: 10px;
+        margin-left: 1px;
+        margin-top: -10px;
+    }
+    .p2{
+        text-align: center;
+        color: rgb(17, 34, 90);
+        font-size: 8px;
+        margin-top: -5px;
+        margin-bottom: 10px;
+    }
+    .dv2b{
+        width: 210px;
+        border: solid 1px;
+        border-color: rgb(181, 181, 182);
+        display: block;
+        margin-top: 5px;
+        color: rgb(30, 30, 128);
+        font-size: 9px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        text-align: center;
+    }
+    .lin4{
+        text-decoration: none;
+    }
+    .dv2c1{
+        font-size: 9px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 8px;
+    }
+    .im4{
+        width: 70px;
+        margin-left: 32px;
+    }
+    .im5{
+        width: 65px;
+    }
+    .gdvb1{
+        display: flex;
+        font-size: 7px;
+        color: rgb(121, 122, 123);
+        justify-content: center;
+        margin-top: 45px;
+    }
+    .gdvb1:hover{
+        cursor: pointer;
+    }
+    .gdvb1a{
+        display: flex;
+        font-size: 7px;
+        color: rgb(121, 122, 123);
+        justify-content: center;
+        margin-top: 5px;
+    }
+    .a:hover{
+        cursor: pointer;
+    }
+    .dv3a1{
+        margin-right: 9px;
+    }
+    .gdvb2{
+        display: flex;
+        font-size: 7px;
+        color: rgb(121, 122, 123);
+        justify-content: center;
+        margin-top: 4%;
+        margin-bottom: 1%;
+    }
+    .dv3b1{
+        margin-right: 9px;
+    }
+
+
+@media (min-width: 1200px) {
+    .gdv{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .gdva{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 5%;
+        margin-left: 29%;
+        margin-right: 30%;
+    }
+    .im1{
+        width: 0px;
+    }
+    .dv2{
+        margin-top: 4%;
+        margin-left: 2%;
+    }
+    .dv2a{
+        width: 170px;
+        border: solid 1px;
+        border-color: rgb(181, 181, 182);
+        display: block;
+    }
+    .dv2a1{
+        margin-top: 10px;
+        margin-bottom: 7px;
+        margin-left: 40px;
+    }
+    .im2{
+        width: 90px;
+    }
+    .dv2a2,.dv2a3{
+        margin-left: 11%;
+        margin-bottom: -1%;
+    }
+    .imp1{
+        
+        width: 80%;
+        height: 12px;
+        background-color: rgb(246, 246, 247);
+        font-size: 6px;
+        border: solid 1px;
+        border-color: rgb(181, 181, 182);
+        border-radius: 2px;
+        padding-left: 5px;
+        color: rgb(108, 108, 109);
+    }
+    .imp2{
+        width: 80%;
+        height: 12px;
+        background-color: rgb(246, 246, 247);
+        font-size: 6px;
+        border: solid 1px;
+        border-color: rgb(181, 181, 182);
+        border-radius: 2px;
+        padding-left: 5px;
+        color: rgb(108, 108, 109);
+    }
+    .bt1{
+        width: 76%;
+        height: 15px;
+        margin-top: 6%;
+        margin-left: 11%;
+        background-color: rgb(101, 197, 248);
+        font-size: 6px;
+        border: solid 1px;
+        border-color: rgb(101, 197, 248);
+        border-radius: 4px;
+        color: white;
+    }
+    .dv2a4{
+        display: flex;
+        width: 76%;
+        margin-left: 11%;
+        margin-top: 4%;
+    }
+    .dv2a4a{
+        width: 52px;
+        border-top: solid 1px;
+        margin-top: 10px;
+        border-color: rgb(181, 181, 182);
+    }
+    .dv2a4b{
+        margin-left: 8px;
+        margin-right: 8px;
+        font-size: 15px;
+        color: rgb(108, 108, 109);
+    }
+    .dv2a4c{
+        width: 52px;
+        border-top: solid 1px;
+        margin-top: 10px;
+        border-color: rgb(181, 181, 182);
+    }
+    .lin3{
+        text-decoration: none;
+        color: rgb(30, 30, 128);
+        font-size: 11px;
+        margin-left: 15px;
+        margin-top: -10px;
+        margin-bottom: -5px;
+    }
+    .p2{
+        color: rgb(17, 34, 90);
+        font-size: 9px;
+        margin-left: 45px;
+        margin-top: -5px;
+    }
+    .dv2b{
+        width: 170px;
+        border: solid 1px;
+        border-color: rgb(181, 181, 182);
+        display: block;
+        margin-top: 5px;
+        color: rgb(30, 30, 128);
+        font-size: 9px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .lin4{
+        text-decoration: none;
+    }
+    .dv2c1{
+        font-size: 9px;
+        margin-left: 38px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .im4{
+        width: 70px;
+        margin-left: 13px;
+    }
+    .im5{
+        width: 65px;
+    }
+    .gdvb1{
+        display: flex;
+        font-size: 7px;
+        color: rgb(121, 122, 123);
+        justify-content: center;
+        margin-top: 100px;
+    }
+    .dv3a1{
+        margin-right: 9px;
+    }
+    .gdvb2{
+        display: flex;
+        font-size: 7px;
+        color: rgb(121, 122, 123);
+        justify-content: center;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .dv3b1{
+        margin-right: 9px;
+    }
+}
+*/
